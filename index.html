@@ -1,49 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
 </head>
-<body>
+
+<body style="margin:0">
     <div class="header">
         <div class="header-top">
             <div class="logo">
                 Header Logo
             </div>
-            <ul class="links">
-                <li><a href="google.com">header link one</a></li>
-                <li><a href="google.com">header link two</a></li>
-                <li><a href="google.com">header link three</a></li>
+            <ul class="link-container">
+                <li><a class="link" href="google.com">header link one</a></li>
+                <li><a class="link" href="google.com">header link two</a></li>
+                <li><a class="link" href="google.com">header link three</a></li>
             </ul>
         </div>
         <div class="header-bottom">
             <div class="hero">
                 <h1 class="hero-main-text">This website is awesome</h1>
-                <p class="hero-text">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+                <p class="hero-text">This website has some subtext that goes here under the main title. It's a smaller
+                    font and the color is lower contrast</p>
                 <button class="sign-up">Sign up</button>
             </div>
-            <img src="img/header-image.jpg" alt="">
+            <img class="header-image" src="img/header-image.jpg" alt="">
         </div>
     </div>
     <div class="information">
         <h2 class="information-header">Some random information.</h2>
         <div class="image-container">
-            <img class="information-image" src="img/main-4.jpg">
-            <div class="image-subtext">this is some subtext under an illustration or image</div>
-            <img class="information-image" src="img/main-4.jpg">
-            <div class="image-subtext">this is some subtext under an illustration or image</div>
-            <img class="information-image" src="img/main-4.jpg">
-            <div class="image-subtext">this is some subtext under an illustration or image</div>
-            <img class="information-image" src="img/main-4.jpg">
-            <div class="image-subtext">this is some subtext under an illustration or image</div>
+            <div>
+                <div>
+                    <img class="information-image" src="img/main-1.jpg">
+
+                </div>
+                <div class="image-subtext">this is some subtext under an illustration or image</div>
+            </div>
+            <div>
+                <div>
+                    <img class="information-image" src="img/main-2.jpg">
+
+                </div>
+                <div class="image-subtext">this is some subtext under an illustration or image</div>
+            </div>
+            <div>
+                <div>
+                    <img class="information-image" src="img/main-3.jpg">
+
+                </div>
+                <div class="image-subtext">this is some subtext under an illustration or image</div>
+
+            </div>
+            <div>
+                <div>
+                    <img class="information-image" src="img/main-4.jpg">
+
+                </div>
+                <div class="image-subtext">this is some subtext under an illustration or image</div>
+            </div>
         </div>
     </div>
     <div class="quote">
         <p class="quote-text">
-            This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.
+            This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe
+            people will actually read it. Who knows? All I know is that it looks nice.
         </p>
         <div class="quote-autor">- Thor, God of Thunder</div>
     </div>
@@ -58,4 +88,5 @@
         Copyright © The Odin Project 2021
     </div>
 </body>
+
 </html>
