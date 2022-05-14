@@ -4,7 +4,7 @@
 
 .header{
     background-color: #1F2937;
-    padding: 15px 200px 100px;
+    padding: 15px 220px 120px;
 }
 
 .header-top{
@@ -37,26 +37,24 @@
     align-items: flex-start;
 }
 
-.hero{
-
-}
-
 .hero-main-text{
     color: #F9FAF8;
-    size: 48px;
+    font-size: 48px;
     font-weight: 800;
+    margin: 0;
 }
 
 .hero-text{
     color: #E5E7EB;
-    size: 18px;
+    font-size: 18px;
+    margin: 0 0 10px 0;
 }
 
 .header-image{
     height: 300px;
 }
 
-.sign-up{
+button{
     background-color: #3882F6;
     border: 3px solid #3882F6;
     border-radius: 8px;
@@ -69,19 +67,94 @@
 .information{
     display: flex;
     flex-direction: column;
+    padding: 15px 300px 120px;
 }
 
 .information-header{
-
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
 }
 
-.image-container{
+.image-flex{
     display: flex;
     gap: 20px;
 }
 
+.image-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .information-image{
     height: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 15px;
+}
+
+.image-subtext{
+    font-size: 17px;
+    color: #1F2937;
+    text-align: center;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    padding: 100px 400px;
+}
+
+.quote-text{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 300;
+    margin: 0;
+}
+
+.quote-author{
+    color: #1F2937;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: right;
+}
+
+.banner-container{
+    padding: 80px 220px;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #3882F6;
+    padding: 40px 100px;
+}
+
+.banner-title{
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.banner-text{
+    color: #E5E7EB;
+    margin: 0;
+    font-size: 17px;
+}
+
+.sign-up{
+    border-color: #F9FAF8;
+    border: 2px solid;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 30px;
 }
 
 ul{
